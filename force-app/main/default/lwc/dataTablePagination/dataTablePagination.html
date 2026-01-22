@@ -1,0 +1,33 @@
+<template>
+    <!-- INÍCIO PAGINAÇÃO -->
+    <div class="slds-grid slds-wrap slds-grid_align-spread slds-m-top_small slds-size_1-of-1">
+        <div class="slds-col slds-size_1-of-3 slds-p-around_x-small slds-text-align_left">
+            <span class="slds-m-horizontal_small">{labels.pageSize}:
+            </span>
+            <lightning-button-menu name="pageSize" label={recordsPerPage} alternative-text="Page size"
+                variant="border-filled" onselect={handlePageSizeChanged} disabled={disablePageSizeSelector}>
+                <template for:each={pageMenuOptions} for:item="option">
+                    <lightning-menu-item key={option.size} label={option.size} value={option.size}
+                        checked={option.isChecked}>
+                    </lightning-menu-item>
+                </template>
+            </lightning-button-menu>
+        </div>
+        <div class="slds-col slds-size_1-of-3 slds-p-around_x-small slds-text-align_center">
+            <div class="slds-grid slds-wrap slds-grid_align-center">
+                <lightning-button label={labels.previous} onclick={handlePreviousPage}
+                    disabled={disablePreviousButton}></lightning-button>
+                <small class="slds-m-horizontal_small slds-align_absolute-center">
+                    {labels.displaying} {currentPage} {labels.ofLabel} {totalPages}
+                    {labels.pages}
+                </small>
+                <lightning-button label={labels.next} onclick={handleNextPage}
+                    disabled={disableNextButton}></lightning-button>
+            </div>
+        </div>
+        <div class="slds-col slds-size_1-of-3 slds-p-around_x-small slds-text-align_right">
+            <span>{labels.recordsPerPage}: {displayedRecordsCount}</span>
+        </div>
+    </div>
+    <!-- FIM PAGINAÇÃO -->
+</template>
