@@ -1,18 +1,23 @@
-# Salesforce DX Project: Next Steps
+# PROJETOS SALESFORCE
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Este repositório é destinado a **projetos práticos em Salesforce**, com foco em **arquitetura, boas práticas, organização de código e eficiência técnica**.  
+O objetivo é **compartilhar soluções, aprendizados e evoluções técnicas** adquiridas ao longo da carreira com a plataforma Salesforce.
 
-## How Do You Plan to Deploy Your Changes?
+O repositório funciona como um hub central, onde diferentes soluções Salesforce são publicadas e evoluídas continuamente. Por esse motivo, os projetos estão organizados de forma independente dentro de um único projeto Salesforce.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+---
 
-## Configure Your Salesforce DX Project
+## 🎯 OBJETIVOS
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+- Centralizar projetos Salesforce em um único repositório
+- Compartilhar soluções, aprendizados e boas práticas
+- Aplicar padrões de projeto e conceitos de arquitetura
+- Servir como portfólio técnico e material de referência
 
-## Read All About It
+---
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## 📂 SOLUÇÕES / DESENVOLVIMENTOS
+
+| Nome da Solução | Caminho | Tipo | Descrição |
+|-----------------|---------|------|-----------|
+|-----------------|---------|------|-----------|
