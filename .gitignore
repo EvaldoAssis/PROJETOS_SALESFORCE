@@ -1,0 +1,15 @@
+# Salesforce CLI
+.sfdx/
+.sf/
+
+# Node
+node_modules/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS
+.DS_Store
+Thumbs.db
